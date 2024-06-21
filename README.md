@@ -2,12 +2,11 @@ Bot Discord para gerenciamento de fila com comandos e botões interativos.
 
 ## Funcionalidades
 
-- **Iniciar Fila**: Inicializa a fila com os membros online ou ausentes (idle).
-- **Mostrar Fila**: Exibe a fila atual de membros.
+- **Iniciar Fila**: Inicializa a fila com os membros online ou ausentes (idle) do canal do discord.
 - **Remover Membro**: Remove um membro específico da fila.
-- **Passar Bastão**: Move o primeiro membro da fila para o final.
+- **Passar Bastão**: Sai do primeiro membro da fila para o ultimo.
 - **Entrar/Sair da Fila**: Adiciona ou remove um membro da fila.
-- **Indisponível**: Marca um membro como indisponível, movendo-o para o final da fila.
+- **Indisponível**: Marca um membro como indisponível, quando primeiro, é movido para o final da fila.
 
 ## Configuração
 
@@ -22,3 +21,5 @@ Bot Discord para gerenciamento de fila com comandos e botões interativos.
    ```bash
    git clone https://github.com/seu-usuario/bot-bastao.git
    cd bot-bastao
+   pip install -r requirements.txt
+   python Bot_Bastao.py
